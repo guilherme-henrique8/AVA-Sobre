@@ -8,107 +8,119 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body class="bg-gray-100 text-gray-800">
+
   <header class="bg-blue-600 text-white p-4 text-center shadow-md" data-aos="fade-down">
     <h1 class="text-3xl font-bold">AVA Gamificado</h1>
     <p class="text-sm">Transformando aprendizado em experiência interativa e recompensadora</p>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Index.html" class="active">Início</a></li>
+        <li><a href="Sobre.html" class="active">Sobre</a></li>
+        <li><a href="funcionalidades.html" class="active">Funcionalidades</a></li>
+        <li><a href="Prototipo.html" class="active">Protótipo</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-
   <section class="container my-5" data-aos="fade-up">
-    <h2 class="text-xl font-bold border-b pb-2 mb-4"><i class="fas fa-rocket"></i> Visão do Projeto</h2>
-    <p>Plataforma que une gamificação, recompensas reais e personalização do ensino para tornar o AVA uma jornada mais envolvente.</p>
+    <h2 class="text-xl font-bold border-b pb-2 mb-4 text-center" ><i class="fas fa-rocket"></i> Visão do Projeto</h2>
+    <p class="text-center">Plataforma que une gamificação, recompensas reais e personalização do ensino para tornar o AVA uma jornada mais envolvente.</p>
+  </section>
+  
+  <section class="container my-5" data-aos="fade-up">
+    <h2 class="text-xl font-bold border-b pb-2 mb-4 text-center"><i class="fas fa-cogs"></i> Como Funciona?</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="p-4">
+          <i class="fas fa-book fa-3x text-blue-500 mb-3"></i>
+          <h3 class="font-bold">1. Cumpra as Missões</h3>
+          <p class="text-sm">Realize as atividades do seu curso e complete desafios interativos para ganhar pontos.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4">
+          <i class="fas fa-trophy fa-3x text-yellow-500 mb-3"></i>
+          <h3 class="font-bold">2. Ganhe Conquistas</h3>
+          <p class="text-sm">Suba no ranking, compita com colegas e colecione medalhas por seu desempenho.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4">
+          <i class="fas fa-gift fa-3x text-pink-500 mb-3"></i>
+          <h3 class="font-bold">3. Resgate Recompensas</h3>
+          <p class="text-sm">Troque seus pontos por cashback, descontos, brindes e muito mais.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-
-  <section class="container my-5" data-aos="fade-up">
-    <h2 class="text-xl font-bold border-b pb-2 mb-4"><i class="fas fa-lightbulb"></i> Oferta de Valor</h2>
-    <ul class="list-disc pl-5">
-      <li><strong>Universidades:</strong> Redução da evasão e diferencial competitivo.</li>
-      <li><strong>Alunos:</strong> Estudo divertido e premiado.</li>
-      <li><strong>Empresas:</strong> Acesso a um público qualificado com branding positivo.</li>
-    </ul>
+  <section class="container my-5 bg-blue-50" data-aos="fade-up">
+    <h2 class="text-xl font-bold border-b pb-2 mb-4 text-center"><i class="fas fa-mobile-alt"></i> Veja a Plataforma em Ação</h2>
+    <div class="row g-3 justify-content-center">
+      <div class="col-md-3">
+        <img src="img/tela1.jpg" class="img-fluid rounded shadow" alt="Tela 1">
+      </div>
+      <div class="col-md-3">
+        <img src="img/tela2.jpg" class="img-fluid rounded shadow" alt="Tela 2">
+      </div>
+      <div class="col-md-3">
+        <img src="img/tela3.jpg" class="img-fluid rounded shadow" alt="Tela 3">
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="Prototipo.html" class="btn-ava"><i class="fas fa-external-link-alt"></i> Ver Protótipo Completo</a>
+    </div>
   </section>
+  
   <section class="container my-5" data-aos="fade-up">
-    <h2 class="text-xl font-bold border-b pb-2 mb-4"><i class="fas fa-search"></i> Funcionalidades</h2>
+    <h2 class="text-xl font-bold border-b pb-2 mb-4 text-center"><i class="fas fa-comments"></i> O Que Dizem Sobre Nós</h2>
     <div class="row">
-      <div class="col-md-6">
-        <ul class="list-disc pl-5">
-          <li>Missões, desafios e pontuação</li>
-          <li>Feedback em tempo real</li>
-          <li>Integração com AVA Pulse + IA</li>
-        </ul>
+      <div class="col-md-4">
+        <div class="bg-white p-4 rounded shadow text-center">
+          <p class="fst-italic">"Estudar virou um desafio divertido! As recompensas são um grande incentivo."</p>
+          <p class="font-bold mt-2">- Joana Silva</p>
+          <p class="text-sm text-muted">Aluna de Engenharia</p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <ul class="list-disc pl-5">
-          <li>Rankings e conquistas</li>
-          <li>Cashback e recompensas reais</li>
-          <li>Comunidade online</li>
-        </ul>
+      <div class="col-md-4">
+        <div class="bg-white p-4 rounded shadow text-center">
+          <p class="fst-italic">"Notamos um aumento incrível no engajamento dos alunos e na redução da evasão."</p>
+          <p class="font-bold mt-2">- Dr. Carlos Andrade</p>
+          <p class="text-sm text-muted">Diretor Acadêmico</p>
+        </div>
       </div>
-    </div>
-  </section>
-
-
-  <section class="container my-5" data-aos="fade-up">
-    <h2 class="text-xl font-bold border-b pb-2 mb-4"><i class="fas fa-puzzle-piece"></i> Análise SWOT</h2>
-    <div class="row text-sm">
-      <div class="col-md-3 bg-yellow-100 p-3 border rounded">
-        <h3 class="font-bold">Forças</h3>
-        <ul class="list-disc pl-5">
-          <li>Alto engajamento</li>
-          <li>Interface amigável</li>
-          <li>Feedback imediato</li>
-        </ul>
-      </div>
-      <div class="col-md-3 bg-pink-100 p-3 border rounded">
-        <h3 class="font-bold">Fraquezas</h3>
-        <ul class="list-disc pl-5">
-          <li>Alta manutenção</li>
-          <li>Consumo de recursos</li>
-          <li>Dependência do AVA</li>
-        </ul>
-      </div>
-      <div class="col-md-3 bg-blue-100 p-3 border rounded">
-        <h3 class="font-bold">Oportunidades</h3>
-        <ul class="list-disc pl-5">
-          <li>Parcerias educacionais</li>
-          <li>Uso de IA</li>
-          <li>Demanda crescente por edtech</li>
-        </ul>
-      </div>
-      <div class="col-md-3 bg-red-100 p-3 border rounded">
-        <h3 class="font-bold">Ameaças</h3>
-        <ul class="list-disc pl-5">
-          <li>Concorrência</li>
-          <li>Privacidade de dados</li>
-          <li>Baixa adesão curricular</li>
-        </ul>
+      <div class="col-md-4">
+        <div class="bg-white p-4 rounded shadow text-center">
+          <p class="fst-italic">"Conectar nossa marca a um projeto de educação inovador nos trouxe um retorno excelente."</p>
+          <p class="font-bold mt-2">- Maria Oliveira</p>
+          <p class="text-sm text-muted">Gerente de Marketing</p>
+        </div>
       </div>
     </div>
   </section>
 
-
-  <section class="container my-5" data-aos="fade-up">
-    <h2 class="text-xl font-bold border-b pb-2 mb-4"><i class="fas fa-users"></i> Equipe e Modelo de Negócios</h2>
-    <p><strong>Equipe:</strong> Desenvolvedores, designers, time educacional e comercial.</p>
-    <p><strong>Receitas:</strong> Assinaturas, publicidade, cursos pagos, microtransações, patrocínios.</p>
-    <p><strong>Custos:</strong> Desenvolvimento, licenças, hospedagem, marketing e suporte.</p>
+  <section class="container my-5 text-center" data-aos="fade-up">
+     <h2 class="text-2xl font-bold mb-4">Pronto para transformar a educação?</h2>
+     <div class="d-flex justify-content-center gap-3">
+       <a href="contato.html" class="btn-ava">Quero ser um Parceiro</a>
+     </div>
   </section>
 
   <footer class="bg-blue-600 text-white text-center p-3 mt-5">
     <p>&copy; 2025 AVA Gamificado. Todos os direitos reservados.</p>
   </footer>
 
-  
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 1000,
+    });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
